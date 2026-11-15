@@ -1,4 +1,4 @@
-/* V5_PORTFOLIO_DARK_THEME_20261114 */
+/* V6_UNIFIED_READER_WORK_THEME_20261115 */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
 :root{
   --bg:#0b1419!important;
@@ -48,3 +48,67 @@ button,.btn,.miniBtn{border-radius:8px!important}
 .workAuthV1{margin-top:26px;padding:29px 30px;background:#111f27;border:1px solid #263a44;border-radius:14px}.workAuthV1 h2{margin:0 0 7px;font-size:22px}.workLabelV1{display:block;color:#8da2aa;font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;margin:14px 0 6px}.workActionsV1{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.workStatusV1{margin-top:12px;color:#8da2aa;font-size:12px}.workStatusV1.error{color:#e49a9a}
 .workWorkspaceV1{display:none;padding:32px 0 70px}.workWorkspaceV1.show{display:block}.workDeviceV1{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px;color:#8da2aa;font-size:12px}.workGridV1{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.workCardV1{min-height:210px;padding:28px;background:#111f27;border:1px solid #263a44;border-radius:14px;text-decoration:none;color:#edf7f5;transition:transform .16s,border-color .16s,box-shadow .16s}.workCardV1:hover{transform:translateY(-3px);border-color:#3a6668;box-shadow:0 22px 55px rgba(0,0,0,.22)}.workIconV1{width:48px;height:48px;display:grid;place-items:center;border-radius:11px;background:#17343c;border:1px solid #2b5057;font-size:23px;margin-bottom:34px}.workCardV1 h3{font:800 20px 'Plus Jakarta Sans';letter-spacing:-.035em;margin:0 0 8px}.workCardV1 p{color:#8fa5ad;font-size:12px;line-height:1.7;margin:0}.workStageV1{display:none;position:fixed;inset:0;z-index:50;background:#0b1419}.workStageV1.show{display:block}.workFrameV1{width:100%;height:100%;border:0;background:#0b1419}.workHomeBtnV1{position:fixed;right:16px;bottom:16px;z-index:80;width:42px;height:42px;border:1px solid #314a54;border-radius:50%;background:rgba(23,40,50,.94);color:#edf7f5;font-size:19px;cursor:pointer;box-shadow:0 12px 30px rgba(0,0,0,.28)}body.workModuleModeV1{overflow:hidden}
 @media(max-width:700px){.workTopbarInnerV1,.workShellV1{width:min(100% - 28px,1100px)}.workNavV1 a:not(.workBtnV1){display:none}.workHeroV1{padding:38px 24px 36px;border-radius:15px}.workGridV1{grid-template-columns:1fr}.workCardV1{min-height:160px}}
+
+/* V6 — match Work to Reader */
+body,button,input,select,textarea{font-family:'DM Sans',system-ui,sans-serif!important}
+body *{font-family:'DM Sans',system-ui,sans-serif!important}
+h1,h2,h3,h4,h5,h6,
+.brand,.brandBtn,.workBrandV1,
+[class*="Title"],[class*="title"],
+[class*="Heading"],[class*="heading"],
+.accTitle,.rowTitle,.courseTitle,.assignmentTitle,.manageTitle,
+.deviceGateBrand,.modalHead h3,.sectionHead h3{
+  font-family:'Plus Jakarta Sans',system-ui,sans-serif!important
+}
+code,pre,kbd,samp,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace!important}
+
+.workTopbarInnerV1{justify-content:flex-start!important}
+.workBrandV1{font-size:15px!important;letter-spacing:-.01em!important}
+.workNavV1{display:none!important}
+.workHomeBtnV1{display:none!important}
+
+.workAuthV1 h2{
+  font:800 22px 'Plus Jakarta Sans',system-ui,sans-serif!important;
+  letter-spacing:-.035em!important;
+  margin:0 0 7px!important;
+}
+.workAuthV1 input{
+  display:block!important;
+  width:100%!important;
+  min-height:56px!important;
+  padding:11px 13px!important;
+  border:1px solid #2a414c!important;
+  border-radius:10px!important;
+  background:#14242c!important;
+  color:#edf7f5!important;
+  font-size:16px!important;
+  outline:none!important;
+}
+.workAuthV1 input:focus{border-color:#65c7bd!important;box-shadow:0 0 0 2px rgba(101,199,189,.1)!important}
+.workAuthV1 .btn,.workDeviceV1 .btn{
+  appearance:none!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  gap:8px!important;
+  min-height:48px!important;
+  padding:10px 16px!important;
+  border:1px solid #2a414c!important;
+  border-radius:10px!important;
+  background:#172832!important;
+  color:#edf7f5!important;
+  font:700 14px 'DM Sans',system-ui,sans-serif!important;
+  cursor:pointer!important;
+}
+.workAuthV1 .btn:hover,.workDeviceV1 .btn:hover{border-color:#65c7bd!important;color:#a6e6da!important}
+.workAuthV1 #sendBtn,.workAuthV1 #confirmBtn{
+  background:#65c7bd!important;
+  border-color:#65c7bd!important;
+  color:#0c1817!important;
+}
+.workAuthV1 #sendBtn:hover,.workAuthV1 #confirmBtn:hover{background:#79dcca!important;color:#0c1817!important}
+.workLabelV1{margin-top:18px!important}
+.workActionsV1{margin-top:16px!important}
+.workStatusV1{margin-top:14px!important}
+.workDeviceV1{padding:0 2px!important}
+.workCardV1 h3{font-family:'Plus Jakarta Sans',system-ui,sans-serif!important}

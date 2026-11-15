@@ -1,0 +1,50 @@
+/* V5_PORTFOLIO_DARK_THEME_20261114 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+:root{
+  --bg:#0b1419!important;
+  --paper:#111f27!important;
+  --paper2:#172832!important;
+  --ink:#edf7f5!important;
+  --muted:#8da2aa!important;
+  --line:#263a44!important;
+  --accent:#65c7bd!important;
+  --accentStrong:#a6e6da!important;
+  --link:#79dcca!important;
+  --chip:#172932!important;
+  --danger:#e49a9a!important;
+  --shadow:0 22px 55px rgba(0,0,0,.28)!important;
+}
+html{background:#0b1419}
+body{background:#0b1419!important;color:var(--ink)!important;font-family:'DM Sans',system-ui,sans-serif!important;line-height:1.55}
+h1,h2,h3,h4,.brand,.brandBtn{font-family:'Plus Jakarta Sans',system-ui,sans-serif!important}
+.topbar{min-height:76px!important;background:rgba(10,20,26,.96)!important;border-bottom:1px solid var(--line)!important;box-shadow:none!important;backdrop-filter:blur(14px)!important}
+.topbar .brandBtn,.topbar .brand{font-weight:800!important;letter-spacing:-.025em!important;color:#f3fbfa!important;display:inline-flex!important;align-items:center!important;gap:11px!important}
+.topbar .brandBtn::before,.topbar .brand::before{content:"";width:34px;height:34px;flex:0 0 34px;border-radius:10px;background:url('/asj-round.png?v=63') center/cover no-repeat;border:1px solid rgba(166,230,218,.22);box-shadow:0 8px 22px rgba(0,0,0,.2)}
+.topbar a,.topbar button{transition:border-color .16s ease,color .16s ease,background .16s ease,transform .16s ease}
+.topbar a:hover,.topbar button:hover{color:var(--accentStrong)!important}
+input,select,textarea{background:#14242c!important;color:var(--ink)!important;border-color:#2a414c!important;border-radius:8px!important}
+input:focus,select:focus,textarea:focus{border-color:var(--accent)!important;box-shadow:0 0 0 2px rgba(101,199,189,.1)!important}
+button,.btn,.miniBtn{border-radius:8px!important}
+.modal,.modalCard,.dialog,.drawer,.popover{--paper:#111f27;--paper2:#172832}
+.surfaceNavV196 a,.surfaceNav a{border:1px solid transparent!important;border-radius:8px!important;min-width:38px;min-height:38px;display:inline-flex!important;align-items:center!important;justify-content:center!important}
+.surfaceNavV196 a.active,.surfaceNav a.active{background:#17333b!important;border-color:#31515a!important}
+.surfaceNavV196 a:hover,.surfaceNav a:hover{background:#142b33!important;border-color:#31515a!important}
+.deviceGateCard{background:#111f27!important;border:1px solid var(--line)!important;box-shadow:var(--shadow)!important;border-radius:16px!important}
+.deviceGateBrand{font-family:'Plus Jakarta Sans',system-ui,sans-serif!important;letter-spacing:-.03em!important}
+.toast{border-radius:9px!important}
+@media(max-width:620px){
+ .topbar{min-height:66px!important}
+ .topbar .brandBtn::before,.topbar .brand::before{width:30px;height:30px;flex-basis:30px}
+}
+
+/* V1 MyWork home */
+.workTopbarV1{height:76px;position:sticky;top:0;z-index:45;background:rgba(10,20,26,.97);border-bottom:1px solid #263a44;backdrop-filter:blur(14px)}
+.workTopbarInnerV1{width:min(1100px,calc(100% - 48px));height:100%;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.workBrandV1{display:flex;align-items:center;gap:11px;color:#f3fbfa;text-decoration:none;font:800 14px 'Plus Jakarta Sans',system-ui,sans-serif;letter-spacing:.03em}
+.workBrandV1 img{width:36px;height:36px;border-radius:11px;border:1px solid rgba(166,230,218,.22)}
+.workNavV1{display:flex;align-items:center;gap:28px;font-size:12px;font-weight:700;color:#9db1b7}.workNavV1 a{color:inherit;text-decoration:none}.workNavV1 a:hover{color:#a6e6da}.workNavV1 .workBtnV1{padding:10px 15px;border-radius:8px;background:#173d45;color:#eaf7f4;border:1px solid #2d565d}
+.workShellV1{width:min(1100px,calc(100% - 48px));margin:auto}.workHeroV1{margin-top:28px;padding:56px 48px 54px;border:1px solid #25404a;border-radius:18px;background:radial-gradient(circle at 84% 8%,#225e64 0%,transparent 35%),linear-gradient(115deg,#102a38,#123946 60%,#194f52);box-shadow:0 22px 55px rgba(0,0,0,.18)}
+.workEyebrowV1{color:#a6e6da;font:800 10px 'Plus Jakarta Sans',system-ui,sans-serif;letter-spacing:.18em;text-transform:uppercase}.workEyebrowV1:before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:#79dcca;margin-right:8px;vertical-align:1px}.workHeroV1 h1{font:800 clamp(34px,5vw,52px) 'Plus Jakarta Sans',system-ui,sans-serif;letter-spacing:-.055em;margin:16px 0 9px;color:#fff}.workHeroV1 p{color:#c4d8dc;font-size:14px}
+.workAuthV1{margin-top:26px;padding:29px 30px;background:#111f27;border:1px solid #263a44;border-radius:14px}.workAuthV1 h2{margin:0 0 7px;font-size:22px}.workLabelV1{display:block;color:#8da2aa;font-size:10px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;margin:14px 0 6px}.workActionsV1{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.workStatusV1{margin-top:12px;color:#8da2aa;font-size:12px}.workStatusV1.error{color:#e49a9a}
+.workWorkspaceV1{display:none;padding:32px 0 70px}.workWorkspaceV1.show{display:block}.workDeviceV1{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:16px;color:#8da2aa;font-size:12px}.workGridV1{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.workCardV1{min-height:210px;padding:28px;background:#111f27;border:1px solid #263a44;border-radius:14px;text-decoration:none;color:#edf7f5;transition:transform .16s,border-color .16s,box-shadow .16s}.workCardV1:hover{transform:translateY(-3px);border-color:#3a6668;box-shadow:0 22px 55px rgba(0,0,0,.22)}.workIconV1{width:48px;height:48px;display:grid;place-items:center;border-radius:11px;background:#17343c;border:1px solid #2b5057;font-size:23px;margin-bottom:34px}.workCardV1 h3{font:800 20px 'Plus Jakarta Sans';letter-spacing:-.035em;margin:0 0 8px}.workCardV1 p{color:#8fa5ad;font-size:12px;line-height:1.7;margin:0}.workStageV1{display:none;position:fixed;inset:0;z-index:50;background:#0b1419}.workStageV1.show{display:block}.workFrameV1{width:100%;height:100%;border:0;background:#0b1419}.workHomeBtnV1{position:fixed;right:16px;bottom:16px;z-index:80;width:42px;height:42px;border:1px solid #314a54;border-radius:50%;background:rgba(23,40,50,.94);color:#edf7f5;font-size:19px;cursor:pointer;box-shadow:0 12px 30px rgba(0,0,0,.28)}body.workModuleModeV1{overflow:hidden}
+@media(max-width:700px){.workTopbarInnerV1,.workShellV1{width:min(100% - 28px,1100px)}.workNavV1 a:not(.workBtnV1){display:none}.workHeroV1{padding:38px 24px 36px;border-radius:15px}.workGridV1{grid-template-columns:1fr}.workCardV1{min-height:160px}}
